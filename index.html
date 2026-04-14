@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h2>HOME</h2>
+                <span id="score-one" class="highlight">0</span>
+                <div>
+                    <button onclick="addOne1()">+1</button>
+                    <button onclick="addTwo1()">+2</button>
+                    <button onclick="addThree1()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h2>GUEST</h2>
+                <span id="score-two" class="highlight">0</span>
+                <div>
+                    <button onclick="addOne2()">+1</button>
+                    <button onclick="addTwo2()">+2</button>
+                    <button onclick="addThree2()">+3</button>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <button class="reset-button" onclick="resetGame()">Reset The Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>
